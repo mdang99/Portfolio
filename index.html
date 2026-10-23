@@ -4,57 +4,65 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Portfolio Website Designer với hơn 5 năm kinh nghiệm thiết kế và phát triển website doanh nghiệp, landing page và hệ thống web theo yêu cầu." name="description"/>
-<title>DT Team — Website Designer Portfolio</title>
-<meta content="#173f36" name="theme-color"/>
+<meta content="Hồ sơ năng lực của DT Team với hơn 5 năm kinh nghiệm thiết kế và phát triển website doanh nghiệp, trang đích và hệ thống web theo yêu cầu." name="description"/>
+<title>DT Team — Hồ sơ năng lực thiết kế website</title>
+<meta content="#0d0d0c" name="theme-color"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&amp;family=Roboto+Serif:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700&amp;display=swap" rel="stylesheet"/>
 
 <noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
 <link href="style.css" rel="stylesheet"/><link href="favicon.svg" rel="icon" type="image/svg+xml"/></head>
 <body>
+<a class="skip-link" href="#main-content">Chuyển đến nội dung chính</a>
 <div aria-hidden="true" class="noise"></div>
 <header class="site-header" id="top">
 <div class="container nav-wrap">
-<a aria-label="Trang chủ" class="brand" href="#top">
+<a aria-label="Trang chủ" class="brand" data-i18n-aria-label="homeLabel" href="#top" translate="no">
 <span class="brand-mark">DT</span>
-<span class="brand-text">PORTFOLIO</span>
+<span class="brand-text">TEAM</span>
 </a>
-<nav aria-label="Điều hướng chính" class="main-nav">
-<a href="#about">Giới thiệu</a>
-<a href="#work">Dự án</a>
-<a href="#skills">Kỹ năng</a>
-<a class="nav-cta" href="#contact">Liên hệ</a>
+<div class="nav-actions">
+<nav aria-label="Điều hướng chính" class="main-nav" data-i18n-aria-label="navLabel">
+<a data-i18n="navAbout" href="#about">Giới thiệu</a>
+<a data-i18n="navWork" href="#work">Dự án</a>
+<a data-i18n="navSkills" href="#skills">Kỹ năng</a>
+<a class="nav-cta" data-i18n="navContact" href="#contact">Liên hệ</a>
 </nav>
-<button aria-expanded="false" aria-label="Mở menu" class="menu-btn">
+<button aria-label="Chuyển sang tiếng Anh" class="lang-toggle" type="button"><span class="lang-current">VI</span><span aria-hidden="true">/</span><span class="lang-next">EN</span></button>
+</div>
+<button aria-expanded="false" aria-label="Mở menu" class="menu-btn" data-i18n-aria-label="menuLabel" type="button">
 <span></span><span></span>
+<b aria-hidden="true">☰</b>
 </button>
 </div>
 </header>
-<main>
+<main id="main-content">
 <section class="hero section">
 <div class="container hero-grid">
 <div class="hero-copy reveal">
-<div class="eyebrow"><span class="dot"></span> WEBSITE DESIGNER · 5+ YEARS EXPERIENCE</div>
-<h1>Thiết kế website<br/><em>đẹp, rõ ràng</em> và<br/>tạo giá trị thật.</h1>
-<p class="hero-text">
-            DT Team là đội ngũ thiết kế website với hơn 5 năm kinh nghiệm, tập trung vào giao diện hiện đại, trải nghiệm người dùng trực quan và giải pháp phù hợp với mục tiêu kinh doanh của từng doanh nghiệp.
+<div class="eyebrow"><span class="dot"></span><span data-i18n="heroEyebrow">THIẾT KẾ WEBSITE · HƠN 5 NĂM KINH NGHIỆM</span></div>
+<h1 data-i18n-html="heroTitle">Thiết kế website<br/><em>đẹp, rõ ràng</em> và<br/>tạo giá trị thực.</h1>
+<p class="hero-text" data-i18n="heroText">
+            DT Team là đội ngũ thiết kế website với hơn 5 năm kinh nghiệm, tập trung vào giao diện hiện đại, trải nghiệm sử dụng trực quan và giải pháp phù hợp với mục tiêu kinh doanh của từng doanh nghiệp.
           </p>
 <div class="hero-actions">
-<a class="btn btn-primary" href="#work">Xem dự án <span>↘</span></a>
-<a class="btn btn-ghost" href="#contact">Trao đổi dự án</a>
+<a class="btn btn-primary" href="#work"><span data-i18n="viewProjects">Xem dự án</span> <span aria-hidden="true">↘</span></a>
+<a class="btn btn-ghost" href="#contact"><span data-i18n="discussProject">Trao đổi dự án</span></a>
 </div>
 </div>
 <div aria-label="Thông tin kinh nghiệm" class="hero-panel reveal delay-1">
 <div class="hero-card">
 <div class="hero-card-top">
-<span>SELECTED WORK</span>
+<span data-i18n="selectedWork">DỰ ÁN TIÊU BIỂU</span>
 <span>2021 — 2026</span>
 </div>
 <div class="big-number">05<span>+</span></div>
-<div class="hero-card-label">Năm kinh nghiệm<br/>thiết kế &amp; phát triển website</div>
+<div class="hero-card-label" data-i18n-html="experienceLabel">Năm kinh nghiệm<br/>thiết kế &amp; phát triển website</div>
 <div class="metric-row">
-<div><strong>04</strong><span>Dự án nổi bật</span></div>
-<div><strong>100%</strong><span>Responsive</span></div>
-<div><strong>01:01</strong><span>Tối ưu theo yêu cầu</span></div>
+<div><strong>04</strong><span data-i18n="metricProjects">Dự án nổi bật</span></div>
+<div><strong>100%</strong><span data-i18n="metricResponsive">Tương thích mọi thiết bị</span></div>
+<div><strong>1:1</strong><span data-i18n="metricCustom">Tùy chỉnh theo yêu cầu</span></div>
 </div>
 </div>
 </div>
@@ -62,17 +70,17 @@
 </section>
 <section class="about section" id="about">
 <div class="container two-col">
-<div class="section-label reveal">01 / GIỚI THIỆU</div>
+<div class="section-label reveal" data-i18n="aboutLabel">01 / GIỚI THIỆU</div>
 <div class="about-content reveal delay-1">
-<h2>Từ ý tưởng đến một website <span>chỉn chu và dễ sử dụng.</span></h2>
-<p>
+<h2 data-i18n-html="aboutTitle">Từ ý tưởng đến một website <span>chỉn chu và dễ sử dụng.</span></h2>
+<p data-i18n="aboutText">
             DT Team đồng hành xuyên suốt quá trình xây dựng website: phân tích nhu cầu, lên cấu trúc nội dung, thiết kế giao diện, phát triển chức năng và tối ưu hiển thị trên nhiều thiết bị. Mục tiêu của chúng tôi là tạo ra sản phẩm cân bằng giữa thẩm mỹ, hiệu quả sử dụng và hình ảnh thương hiệu.
           </p>
 <div class="service-list">
-<div><span>01</span> Website doanh nghiệp</div>
-<div><span>02</span> Landing page / Campaign</div>
-<div><span>03</span> UI/UX &amp; Responsive</div>
-<div><span>04</span> Website theo yêu cầu</div>
+<div><span>01</span><span data-i18n="serviceCorporate">Website doanh nghiệp</span></div>
+<div><span>02</span><span data-i18n="serviceLanding">Trang đích / Chiến dịch</span></div>
+<div><span>03</span><span data-i18n="serviceUi">UI/UX &amp; Tương thích đa thiết bị</span></div>
+<div><span>04</span><span data-i18n="serviceCustom">Website theo yêu cầu</span></div>
 </div>
 </div>
 </div>
@@ -81,27 +89,27 @@
 <div class="container">
 <div class="section-head reveal">
 <div>
-<div class="section-label">02 / DỰ ÁN NỔI BẬT</div>
-<h2>Một số website<br/>đã thực hiện.</h2>
+<div class="section-label" data-i18n="workLabel">02 / DỰ ÁN NỔI BẬT</div>
+<h2 data-i18n-html="workTitle">Một số website<br/>chúng tôi đã thực hiện.</h2>
 </div>
-<p>Mỗi dự án được xây dựng theo đặc thù ngành nghề, tập trung vào bố cục rõ ràng, nhận diện thương hiệu và trải nghiệm người dùng.</p>
+<p data-i18n="workText">Mỗi dự án được xây dựng theo đặc thù ngành nghề, tập trung vào bố cục rõ ràng, nhận diện thương hiệu và trải nghiệm người dùng.</p>
 </div>
 <div class="projects">
 <article class="project-card project-01 reveal">
-<a aria-label="Mở website Quảng Cáo Thành Huy" class="project-visual" href="https://quangcaothanhhuy.com.vn/" rel="noopener noreferrer" target="_blank">
+<a aria-label="Mở website Quảng cáo Thành Huy" class="project-visual" href="https://quangcaothanhhuy.com.vn/" rel="noopener noreferrer" target="_blank">
 <div class="browser-bar"><span></span><span></span><span></span><small>quangcaothanhhuy.com.vn</small></div>
 <div class="mock-content outdoor-mock">
 <div class="mock-kicker">THÀNH HUY</div>
-<div class="mock-title">OUTDOOR<br/>ADVERTISING</div>
+<div class="mock-title" data-i18n-html="mockOutdoor">QUẢNG CÁO<br/>NGOÀI TRỜI</div>
 <div class="mock-line"></div>
-<div class="mock-pill">PANO · BILLBOARD · OOH</div>
+<div class="mock-pill" data-i18n="outdoorTypes">PA-NÔ · BIỂN QUẢNG CÁO · OOH</div>
 </div>
-<span class="visit-icon">↗</span>
+<span aria-hidden="true" class="visit-icon">↗</span>
 </a>
 <div class="project-info">
-<div><span class="project-no">01</span><h3>Quảng Cáo Thành Huy</h3></div>
-<p>Website doanh nghiệp quảng cáo ngoài trời với danh mục vị trí pano theo khu vực, thông tin từng vị trí, liên kết Google Maps, gallery dự án, phản hồi khách hàng và chức năng liên hệ báo giá.</p>
-<div class="tags"><span>Corporate</span><span>Location Listing</span><span>Responsive</span></div>
+<div><span class="project-no">01</span><h3>Quảng cáo Thành Huy</h3></div>
+<p data-i18n="projectOneText">Website doanh nghiệp quảng cáo ngoài trời với danh mục biển quảng cáo theo khu vực, thông tin chi tiết từng vị trí, liên kết Google Maps, thư viện dự án, phản hồi của khách hàng và chức năng yêu cầu báo giá.</p>
+<div class="tags"><span data-i18n="tagCorporate">Doanh nghiệp</span><span data-i18n="tagLocations">Danh sách vị trí</span><span data-i18n="tagResponsive">Đa thiết bị</span></div>
 </div>
 </article>
 <article class="project-card project-02 reveal">
@@ -110,15 +118,15 @@
 <div class="mock-content cyber-mock">
 <div class="cyber-grid"></div>
 <div class="mock-kicker">DBF TECHNOLOGY</div>
-<div class="mock-title">CYBER<br/>SECURITY</div>
-<div class="status"><i></i> SYSTEM PROTECTED</div>
+<div class="mock-title" data-i18n-html="mockCyber">AN NINH<br/>MẠNG</div>
+<div class="status"><i></i><span data-i18n="systemProtected">HỆ THỐNG ĐƯỢC BẢO VỆ</span></div>
 </div>
-<span class="visit-icon">↗</span>
+<span aria-hidden="true" class="visit-icon">↗</span>
 </a>
 <div class="project-info">
 <div><span class="project-no">02</span><h3>DBF Technology</h3></div>
-<p>Website doanh nghiệp an ninh mạng giới thiệu dịch vụ bảo mật, tư vấn CNTT, quản trị dữ liệu, giám sát sự cố và các nhóm giải pháp bảo mật dành cho doanh nghiệp.</p>
-<div class="tags"><span>Cyber Security</span><span>Business</span><span>Solutions</span></div>
+<p data-i18n="projectTwoText">Website doanh nghiệp an ninh mạng giới thiệu các dịch vụ bảo mật, tư vấn công nghệ thông tin, quản trị dữ liệu, giám sát sự cố và giải pháp bảo mật dành cho doanh nghiệp.</p>
+<div class="tags"><span data-i18n="tagCyber">An ninh mạng</span><span data-i18n="tagCorporate">Doanh nghiệp</span><span data-i18n="tagSolutions">Giải pháp</span></div>
 </div>
 </article>
 <article class="project-card project-03 reveal">
@@ -127,15 +135,15 @@
 <div class="mock-content bully-mock">
 <div class="paw">●</div>
 <div class="mock-kicker">SM BULLY CAMP</div>
-<div class="mock-title">PET<br/>LOOKUP</div>
-<div class="search-mock"><span>Search ID: SM01...</span><b>⌕</b></div>
+<div class="mock-title" data-i18n-html="mockPet">TRA CỨU<br/>THÚ CƯNG</div>
+<div class="search-mock"><span data-i18n="searchId">Nhập mã: SM01…</span><b>⌕</b></div>
 </div>
-<span class="visit-icon">↗</span>
+<span aria-hidden="true" class="visit-icon">↗</span>
 </a>
 <div class="project-info">
 <div><span class="project-no">03</span><h3>SM Bully Camp</h3></div>
-<p>Hệ thống web hỗ trợ tra cứu hồ sơ thú cưng bằng mã định danh riêng như SM01, SM02…, giúp người dùng truy xuất thông tin nhanh chóng và đơn giản hóa việc quản lý dữ liệu.</p>
-<div class="tags"><span>Web App</span><span>Search System</span><span>Data Lookup</span></div>
+<p data-i18n="projectThreeText">Hệ thống trực tuyến hỗ trợ tra cứu hồ sơ thú cưng bằng mã định danh riêng như SM01, SM02…, giúp người dùng truy xuất thông tin nhanh chóng và đơn giản hóa quá trình quản lý dữ liệu.</p>
+<div class="tags"><span data-i18n="tagWebApp">Ứng dụng web</span><span data-i18n="tagSearch">Hệ thống tìm kiếm</span><span data-i18n="tagLookup">Tra cứu dữ liệu</span></div>
 </div>
 </article>
 <article class="project-card project-04 reveal">
@@ -143,15 +151,15 @@
 <div class="browser-bar"><span></span><span></span><span></span><small>the20.sg</small></div>
 <div class="mock-content event-mock">
 <div class="event-circle">20</div>
-<div class="mock-kicker">SINGAPORE · ASIA</div>
-<div class="mock-title">EVENTS<br/>WITH IMPACT</div>
+<div class="mock-kicker" data-i18n="singaporeAsia">SINGAPORE · CHÂU Á</div>
+<div class="mock-title" data-i18n-html="mockEvents">SỰ KIỆN<br/>TẠO DẤU ẤN</div>
 </div>
-<span class="visit-icon">↗</span>
+<span aria-hidden="true" class="visit-icon">↗</span>
 </a>
 <div class="project-info">
 <div><span class="project-no">04</span><h3>The20 Singapore</h3></div>
-<p>Website giới thiệu thương hiệu tổ chức sự kiện tại thị trường châu Á, sử dụng phong cách tối giản để làm nổi bật định vị doanh nghiệp và tạo điểm chạm liên hệ nhanh cho khách hàng.</p>
-<div class="tags"><span>Events</span><span>Minimal</span><span>Brand Website</span></div>
+<p data-i18n="projectFourText">Website giới thiệu thương hiệu tổ chức sự kiện tại thị trường châu Á, sử dụng phong cách tối giản để làm nổi bật định vị doanh nghiệp và giúp khách hàng liên hệ nhanh chóng.</p>
+<div class="tags"><span data-i18n="tagEvents">Sự kiện</span><span data-i18n="tagMinimal">Tối giản</span><span data-i18n="tagBrand">Website thương hiệu</span></div>
 </div>
 </article>
 </div>
@@ -159,14 +167,14 @@
 </section>
 <section class="skills section" id="skills">
 <div class="container two-col">
-<div class="section-label reveal">03 / NĂNG LỰC</div>
+<div class="section-label reveal" data-i18n="skillsLabel">03 / NĂNG LỰC</div>
 <div class="skills-content reveal delay-1">
-<h2>Thiết kế không chỉ để đẹp.<br/><span>Mà để website hoạt động hiệu quả.</span></h2>
+<h2 data-i18n-html="skillsTitle">Thiết kế không chỉ để đẹp,<br/><span>mà còn để website hoạt động hiệu quả.</span></h2>
 <div class="capability-intro">
-<p>DT Team kết hợp tư duy thiết kế, trải nghiệm người dùng và kỹ thuật front-end để tạo ra website có cấu trúc rõ ràng, hình ảnh chuyên nghiệp, tốc độ tốt và dễ mở rộng khi doanh nghiệp phát triển.</p>
+<p data-i18n="skillsText">DT Team kết hợp tư duy thiết kế, trải nghiệm người dùng và kỹ thuật phát triển giao diện để tạo ra website có cấu trúc rõ ràng, diện mạo chuyên nghiệp, tốc độ tải nhanh và khả năng mở rộng theo sự phát triển của doanh nghiệp.</p>
 <div aria-label="Hơn 5 năm kinh nghiệm" class="experience-badge">
 <strong>5<span>+</span></strong>
-<small>Năm kinh nghiệm thực chiến</small>
+<small data-i18n="yearsExperience">Năm kinh nghiệm thực chiến</small>
 </div>
 </div>
 <div class="capability-board">
@@ -175,39 +183,43 @@
 <div aria-hidden="true" class="cap-icon">
 <svg viewbox="0 0 24 24"><path d="M4 19.5V4.5a1 1 0 0 1 1-1h9l6 6v10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1Z"></path><path d="M14 3.5v6h6"></path><path d="M8 14h8M8 17h5"></path></svg>
 </div>
-<h3>Strategy &amp; UX</h3>
-<p>Phân tích mục tiêu, tổ chức nội dung và xây dựng hành trình người dùng trước khi bắt đầu phần giao diện.</p>
-<div class="cap-meta"><span>Information Architecture</span><span>User Flow</span><span>Wireframe</span></div>
+<h3 data-i18n="capStrategy">Chiến lược &amp; Trải nghiệm người dùng</h3>
+<p data-i18n="capStrategyText">Phân tích mục tiêu, tổ chức nội dung và xây dựng hành trình người dùng trước khi thiết kế giao diện.</p>
+<div class="cap-meta"><span data-i18n="tagArchitecture">Kiến trúc thông tin</span><span data-i18n="tagFlow">Luồng người dùng</span><span data-i18n="tagWireframe">Khung giao diện</span></div>
 </article>
 <article class="capability-card">
 <div aria-hidden="true" class="cap-icon">
 <svg viewbox="0 0 24 24"><path d="M12 3 4.5 7.2 12 11.5l7.5-4.3L12 3Z"></path><path d="m4.5 11.5 7.5 4.3 7.5-4.3M4.5 15.8 12 20l7.5-4.2"></path></svg>
 </div>
-<h3>UI &amp; Visual Design</h3>
-<p>Xây dựng hệ thống hình ảnh nhất quán, hiện đại và phù hợp với định vị thương hiệu của doanh nghiệp.</p>
-<div class="cap-meta"><span>UI System</span><span>Typography</span><span>Brand Visual</span></div>
+<h3 data-i18n="capVisual">UI &amp; Thiết kế thị giác</h3>
+<p data-i18n="capVisualText">Xây dựng hệ thống hình ảnh nhất quán, hiện đại và phù hợp với định vị thương hiệu của doanh nghiệp.</p>
+<div class="cap-meta"><span data-i18n="tagUiSystem">Hệ thống giao diện</span><span data-i18n="tagTypography">Kiểu chữ</span><span data-i18n="tagBrandVisual">Hình ảnh thương hiệu</span></div>
 </article>
 <article class="capability-card">
 <div aria-hidden="true" class="cap-icon">
 <svg viewbox="0 0 24 24"><path d="m8 9-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"></path></svg>
 </div>
-<h3>Development &amp; Optimization</h3>
-<p>Triển khai giao diện responsive, tương tác mượt và tối ưu để website vận hành ổn định trên nhiều thiết bị.</p>
-<div class="cap-meta"><span>Front-end</span><span>Responsive</span><span>Performance</span></div>
+<h3 data-i18n="capDevelopment">Phát triển &amp; Tối ưu hóa</h3>
+<p data-i18n="capDevelopmentText">Triển khai giao diện tương thích đa thiết bị, bảo đảm tương tác mượt mà và tối ưu để website vận hành ổn định.</p>
+<div class="cap-meta"><span data-i18n="tagFrontend">Phát triển giao diện</span><span data-i18n="tagResponsive">Đa thiết bị</span><span data-i18n="tagPerformance">Hiệu suất</span></div>
 </article>
 </div>
 <div class="skills-bottom">
-<div class="toolkit">
-<div class="toolkit-head"><h3>Năng lực triển khai</h3><span>CORE STACK</span></div>
-<div class="tool-chips"><span>HTML / CSS</span><span>JavaScript</span><span>WordPress</span><span>Responsive UI</span><span>Figma</span><span>SEO Structure</span></div>
+<div class="toolkit why-us">
+<div class="toolkit-head"><h3 data-i18n="whyTitle">Vì sao chọn chúng tôi?</h3><span data-i18n="whyCount">3 LÝ DO</span></div>
+<div class="why-list">
+<article class="why-item"><span class="why-index">01</span><div><h4 data-i18n="whyGoalTitle">Bám sát mục tiêu kinh doanh</h4><p data-i18n="whyGoalText">Mỗi quyết định thiết kế đều hướng đến đúng khách hàng và mục tiêu chuyển đổi.</p></div></article>
+<article class="why-item"><span class="why-index">02</span><div><h4 data-i18n="whyProcessTitle">Đồng hành trọn quy trình</h4><p data-i18n="whyProcessText">Từ chiến lược, giao diện đến phát triển và bàn giao trong một quy trình rõ ràng.</p></div></article>
+<article class="why-item"><span class="why-index">03</span><div><h4 data-i18n="whyScaleTitle">Tối ưu để phát triển lâu dài</h4><p data-i18n="whyScaleText">Website nhanh, tương thích đa thiết bị và có cấu trúc thuận tiện để mở rộng.</p></div></article>
+</div>
 </div>
 <div class="workflow">
-<div class="workflow-head"><h3>Quy trình làm việc</h3><span>04 STEPS</span></div>
-<div class="workflow-list">
-<div class="workflow-step"><span>01</span><strong>Phân tích yêu cầu</strong></div>
-<div class="workflow-step"><span>02</span><strong>Thiết kế giao diện</strong></div>
-<div class="workflow-step"><span>03</span><strong>Phát triển website</strong></div>
-<div class="workflow-step"><span>04</span><strong>Kiểm thử &amp; bàn giao</strong></div>
+<div class="workflow-head"><h3 data-i18n="workflowTitle">Quy trình làm việc</h3><span data-i18n="fourSteps">4 BƯỚC</span></div>
+<div class="workflow-list" role="list">
+<div class="workflow-step" role="listitem"><div class="step-node"><span>01</span></div><div class="step-copy"><small data-i18n="phaseDiscover">KHÁM PHÁ</small><strong data-i18n="stepAnalyze">Phân tích yêu cầu</strong></div></div>
+<div class="workflow-step" role="listitem"><div class="step-node"><span>02</span></div><div class="step-copy"><small data-i18n="phaseShape">ĐỊNH HÌNH</small><strong data-i18n="stepDesign">Thiết kế giao diện</strong></div></div>
+<div class="workflow-step" role="listitem"><div class="step-node"><span>03</span></div><div class="step-copy"><small data-i18n="phaseBuild">XÂY DỰNG</small><strong data-i18n="stepDevelop">Phát triển website</strong></div></div>
+<div class="workflow-step" role="listitem"><div class="step-node"><span>04</span></div><div class="step-copy"><small data-i18n="phaseLaunch">HOÀN THIỆN</small><strong data-i18n="stepDeliver">Kiểm thử &amp; bàn giao</strong></div></div>
 </div>
 </div>
 </div>
@@ -218,38 +230,38 @@
 <section class="contact section" id="contact">
 <div class="container contact-card reveal">
 <div class="contact-intro">
-<div class="section-label light">04 / LIÊN HỆ</div>
-<h2>Cùng bắt đầu<br/>dự án tiếp theo.</h2>
-<p>DT Team sẵn sàng trao đổi về website doanh nghiệp, landing page và các hệ thống web được xây dựng theo yêu cầu riêng.</p>
+<div class="section-label light" data-i18n="contactLabel">04 / LIÊN HỆ</div>
+<h2 data-i18n-html="contactTitle">Cùng bắt đầu<br/>dự án tiếp theo.</h2>
+<p data-i18n="contactText">DT Team sẵn sàng trao đổi về website doanh nghiệp, landing page và các hệ thống web được xây dựng theo yêu cầu riêng.</p>
 </div>
 <div class="contact-right">
 <div class="contact-list">
 <div class="contact-item">
-<span class="contact-label">EMAIL</span>
+<span class="contact-label" data-i18n="emailLabel">THƯ ĐIỆN TỬ</span>
 <a class="contact-value" href="mailto:nvmdang99@gmail.com?subject=Trao%20%C4%91%E1%BB%95i%20d%E1%BB%B1%20%C3%A1n%20website%20v%E1%BB%9Bi%20DT%20Team">nvmdang99@gmail.com <span>↗</span></a>
 </div>
 <div class="contact-item">
-<span class="contact-label">PHONE 01</span>
+<span class="contact-label" data-i18n="phoneOne">SỐ ĐIỆN THOẠI 01</span>
 <a class="contact-value" href="tel:+84372972067">(+84) 372 972 067 <span>↗</span></a>
 </div>
 <div class="contact-item">
-<span class="contact-label">PHONE 02</span>
+<span class="contact-label" data-i18n="phoneTwo">SỐ ĐIỆN THOẠI 02</span>
 <a class="contact-value" href="tel:+84332548797">(+84) 332 548 797 <span>↗</span></a>
 </div>
 </div>
 <div class="contact-actions">
-<a class="btn btn-light contact-main-btn" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=nvmdang99%40gmail.com&amp;su=Trao%20%C4%91%E1%BB%95i%20d%E1%BB%B1%20%C3%A1n%20website%20v%E1%BB%9Bi%20DT%20Team" target="_blank" rel="noopener noreferrer">Gửi Email <span>↗</span></a>
-<a class="contact-phone-btn" href="tel:+84372972067">Gọi DT Team</a>
+<a class="btn btn-light contact-main-btn" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=nvmdang99%40gmail.com&amp;su=Trao%20%C4%91%E1%BB%95i%20d%E1%BB%B1%20%C3%A1n%20website%20v%E1%BB%9Bi%20DT%20Team" target="_blank" rel="noopener noreferrer"><span data-i18n="sendEmail">Gửi email</span> <span aria-hidden="true">↗</span></a>
+<a class="contact-phone-btn" href="tel:+84372972067"><span data-i18n="callTeam">Gọi DT Team</span></a>
 </div>
-<small class="contact-note">Nút “Gửi Email” sẽ mở cửa sổ soạn thư Gmail. Email và số điện thoại phía trên cũng có thể nhấn trực tiếp.</small>
+<small class="contact-note" data-i18n="contactNote">Nút “Gửi email” sẽ mở cửa sổ soạn thư trong Gmail. Bạn cũng có thể nhấn trực tiếp vào địa chỉ email hoặc số điện thoại phía trên.</small>
 </div>
 </div>
 </section>
 </main>
 <footer class="footer">
 <div class="container footer-wrap">
-<div>Copyright © 2026 DT Team. All rights reserved.</div>
-<a href="#top">Về đầu trang ↑</a>
+<div data-i18n="copyright">© 2026 DT Team. Bảo lưu mọi quyền.</div>
+<a data-i18n="backToTop" href="#top">Về đầu trang ↑</a>
 </div>
 </footer>
 
